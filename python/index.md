@@ -20,8 +20,8 @@ data.
 | [`P2_control_flow_functions.ipynb`](P2_control_flow_functions.ipynb) | Booleans and logic; `if`/`elif`/`else`; `for` and `while`, `break` and `continue`; functions, parameters, defaults, scope, docstrings; `try`/`except`; the marks of a class and a sum of money that doubles | 2, 3 |
 | [`P3_data_structures_numpy.ipynb`](P3_data_structures_numpy.ipynb) | Lists and dictionaries, with the arms of the detectors; tuples and sets; NumPy arrays, a day of temperatures, the loop against the array, slicing, masks, **vectorised thinking**; labelled plots; a tone under noise | 4 |
 | [`P4_scientific_stack.ipynb`](P4_scientific_stack.ipynb) | Text and CSV files with pandas; JSON; HDF5; SciPy and a straight line through points; modules and imports; the course's strain file and catalogue of events; restart and run all and `assert`; git, the minimum | 5 |
+| [`P5_code_you_can_trust.ipynb`](P5_code_you_can_trust.ipynb) | Names with units, constants, one job per function; the numbers of GW150914, the arms of the detectors and the light between the sites; a module, then a package with a test | 5 |
 
-Two more notebooks are extras, for anyone who wants to go further: [`P5_code_you_can_trust.ipynb`](P5_code_you_can_trust.ipynb) (names, constants, small functions and `assert` checks; git; a module, then a package with a test) and [`P6_primer_on_the_course_data.ipynb`](P6_primer_on_the_course_data.ipynb) (the same Python on the numbers of the course, with a small module). What they teach is in P3 and P4 in short form.
 
 Each session condenses the modules named in the last column, which are in
 `reference/` with their examples and exercises. The modules are where the same
