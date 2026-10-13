@@ -45,8 +45,8 @@ you, in the laboratories.
 
 ## The course
 
-**The Python primer** ([`python/`](python/index.md)): four sessions,
-P1 to P4, assuming nothing.
+**The Python primer** ([`python/`](python/index.md)): 5 sessions,
+P1 to P5, assuming nothing.
 
 | Session | Notebook |
 |---|---|
@@ -54,6 +54,7 @@ P1 to P4, assuming nothing.
 | `P2` | [`python/P2_control_flow_functions.ipynb`](python/P2_control_flow_functions.ipynb) |
 | `P3` | [`python/P3_data_structures_numpy.ipynb`](python/P3_data_structures_numpy.ipynb) |
 | `P4` | [`python/P4_scientific_stack.ipynb`](python/P4_scientific_stack.ipynb) |
+| `P5` | [`python/P5_code_you_can_trust.ipynb`](python/P5_code_you_can_trust.ipynb) |
 
 **The laboratories**, H02 to H11, are published here on the day they
 are taught. None is out yet.
