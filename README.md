@@ -56,8 +56,12 @@ P1 to P5, assuming nothing.
 | `P4` | [`python/P4_scientific_stack.ipynb`](python/P4_scientific_stack.ipynb) |
 | `P5` | [`python/P5_code_you_can_trust.ipynb`](python/P5_code_you_can_trust.ipynb) |
 
-**The laboratories**, H02 to H11, are published here on the day they
-are taught. None is out yet.
+**The laboratories** ([`labs/`](labs/index.md)), published on the day
+they are taught. The names are the course's own, H02 to H11.
+
+| Laboratory | Notebook |
+|---|---|
+| `H01` | [`labs/H01_first_waveform.ipynb`](labs/H01_first_waveform.ipynb) — Your first waveform |
 
 **Your own notebook**: [`sandbox.ipynb`](sandbox.ipynb). Nothing in the
 course reads it. Try things there before they go into an answer.
