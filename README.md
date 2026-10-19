@@ -57,7 +57,7 @@ P1 to P5, assuming nothing.
 | `P5` | [`python/P5_code_you_can_trust.ipynb`](python/P5_code_you_can_trust.ipynb) |
 
 **The laboratories** ([`labs/`](labs/index.md)), published on the day
-they are taught. The names are the course's own, H02 to H11.
+they are taught. The names are the course's own, H01 to H13.
 
 | Laboratory | Notebook |
 |---|---|
