@@ -65,6 +65,10 @@ they are taught. The names are the course's own, H01 to H13.
 | `H02` | [`labs/H02_linear_systems.ipynb`](labs/H02_linear_systems.ipynb) — Linear systems: the oscillator a detector is made of |
 | `H03` | [`labs/H03_time_series.ipynb`](labs/H03_time_series.ipynb) — Time series: lecture 9 in examples |
 | `H03` | [`labs/H03_homework_mirror_noise.ipynb`](labs/H03_homework_mirror_noise.ipynb) — Homework: the noise of a mirror on a spring |
+| `H04` | [`labs/H04_class_real_noise.ipynb`](labs/H04_class_real_noise.ipynb) — In class: the real noise of Virgo |
+| `H04` | [`labs/H04_home_gwosc_data.ipynb`](labs/H04_home_gwosc_data.ipynb) — At home: LIGO data from GWOSC |
+| `H05` | [`labs/H05_class_signal_processing.ipynb`](labs/H05_class_signal_processing.ipynb) — In class: signal processing on real data |
+| `H05` | [`labs/H05_home_signal_processing.ipynb`](labs/H05_home_signal_processing.ipynb) — At home: filters and the time–frequency plane |
 
 **Your own notebook**: [`sandbox.ipynb`](sandbox.ipynb). Nothing in the
 course reads it. Try things there before they go into an answer.

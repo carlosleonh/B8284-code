@@ -8,3 +8,7 @@ The laboratories are published on the day they are taught.
 | `H02` | [Linear systems: the oscillator a detector is made of](H02_linear_systems.ipynb) |
 | `H03` | [Time series: lecture 9 in examples](H03_time_series.ipynb) |
 | `H03` | [Homework: the noise of a mirror on a spring](H03_homework_mirror_noise.ipynb) |
+| `H04` | [In class: the real noise of Virgo](H04_class_real_noise.ipynb) |
+| `H04` | [At home: LIGO data from GWOSC](H04_home_gwosc_data.ipynb) |
+| `H05` | [In class: signal processing on real data](H05_class_signal_processing.ipynb) |
+| `H05` | [At home: filters and the time–frequency plane](H05_home_signal_processing.ipynb) |
