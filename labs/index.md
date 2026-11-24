@@ -12,3 +12,5 @@ The laboratories are published on the day they are taught.
 | `H04` | [At home: LIGO data from GWOSC](H04_home_gwosc_data.ipynb) |
 | `H05` | [In class: signal processing on real data](H05_class_signal_processing.ipynb) |
 | `H05` | [At home: filters and the time–frequency plane](H05_home_signal_processing.ipynb) |
+| `H06` | [The matched filter on real data and simulated glitches](H06_matched_filter.ipynb) |
+| `H07` | [The PSD and whitening: a practical session](H07_psd_and_whitening.ipynb) |
