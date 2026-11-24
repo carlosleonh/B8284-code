@@ -57,7 +57,7 @@ P1 to P5, assuming nothing.
 | `P5` | [`python/P5_code_you_can_trust.ipynb`](python/P5_code_you_can_trust.ipynb) |
 
 **The laboratories** ([`labs/`](labs/index.md)), published on the day
-they are taught. The names are the course's own, H01 to H13.
+they are taught. The names are the course's own, H01 to H10.
 
 | Laboratory | Notebook |
 |---|---|
@@ -69,6 +69,8 @@ they are taught. The names are the course's own, H01 to H13.
 | `H04` | [`labs/H04_home_gwosc_data.ipynb`](labs/H04_home_gwosc_data.ipynb) — At home: LIGO data from GWOSC |
 | `H05` | [`labs/H05_class_signal_processing.ipynb`](labs/H05_class_signal_processing.ipynb) — In class: signal processing on real data |
 | `H05` | [`labs/H05_home_signal_processing.ipynb`](labs/H05_home_signal_processing.ipynb) — At home: filters and the time–frequency plane |
+| `H06` | [`labs/H06_matched_filter.ipynb`](labs/H06_matched_filter.ipynb) — The matched filter on real data and simulated glitches |
+| `H07` | [`labs/H07_psd_and_whitening.ipynb`](labs/H07_psd_and_whitening.ipynb) — The PSD and whitening: a practical session |
 
 **Your own notebook**: [`sandbox.ipynb`](sandbox.ipynb). Nothing in the
 course reads it. Try things there before they go into an answer.

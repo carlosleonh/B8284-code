@@ -1,0 +1,30 @@
+# The configuration of the laboratories.
+#
+# It says where the data are and which events the course loads. The notebooks
+# read it in their first code cell, with tomllib. The figure scripts read it
+# with gwcourse_config.py. The functions of gwcourse_signal.py know nothing of
+# it: they take a path or a time as an argument.
+
+[data]
+# The folder with the data files. It is relative to the folder of this file.
+dir = "data"
+
+# One table for each event the course loads.
+#   gps   the GPS time of the merger (s), as listed by GWOSC
+#   H1, L1, V1   the file of the strain of that detector, in the folder above
+
+[events.GW150914]
+# the merger, as in the GWOSC event list
+gps = 1126259462.42
+H1 = "gw150914_H1.hdf5"
+L1 = "gw150914_L1.hdf5"
+
+[events.GW170817]
+# the merger, as in the GWOSC event list
+gps = 1187008882.4
+L1 = "gw170817_L1.hdf5"
+
+[events.GW190814]
+# the merger, as in the GWOSC event list
+gps = 1249852257
+V1 = "gw190814_V1.hdf5"

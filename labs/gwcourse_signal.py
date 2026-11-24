@@ -10,13 +10,15 @@ file and find out in a dozen lines.
 
     from gwcourse_signal import load_strain, whiten, bandpass, q_transform
 
-    strain, t, fs = load_strain("H1")
+    strain, t, fs = load_strain(path)
     w = whiten(strain, fs)
-    ts, freqs, energy = q_transform(w, fs, t, centre=GPS_MERGER)
+    ts, freqs, energy = q_transform(w, fs, t, centre=t_merger)
 
-Nothing here fetches anything. The data lives in ``labs/data``, next to this
-file, downloaded once and committed, so a figure built on a train gives the
-same result as one built in the department.
+Nothing here fetches anything and nothing here knows where the data are. The
+path of the file and the time of the merger are arguments: they come from the
+configuration file ``labs/config.toml``, which a notebook reads in its first
+code cell. The data lives in ``labs/data``, downloaded once and committed, so a
+figure built on a train gives the same result as one built in the department.
 
 It sits in ``labs/`` because that is where it is used: the laboratories call
 these functions directly, and the figures in the lessons call the same ones, so
@@ -29,26 +31,24 @@ returns rather than plots.
 
 from __future__ import annotations
 
-import os
-
 import numpy as np
 
-__all__ = ["load_strain", "whiten", "bandpass", "q_transform",
-           "DATA_DIR", "GPS_GW150914"]
-
-# this module lives in labs/, beside the data it reads
-DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
-
-# GWOSC event time for GW150914. The merger is the loudest instant of the
-# signal and every plot in the course is centred on it.
-GPS_GW150914 = 1126259462.42
+__all__ = ["load_strain", "whiten", "bandpass", "q_transform"]
 
 
-def load_strain(detector: str, event: str = "gw150914"):
-    """Cached strain for one detector: ``(strain, gps_times, sample_rate)``."""
+def load_strain(path):
+    """Read the strain of one detector from a GWOSC file.
+
+    Args:
+        path: the hdf5 file with the strain, in the layout of the GWOSC files.
+
+    Returns:
+        strain: the strain, a NumPy array (dimensionless).
+        gps_times: the GPS time of each sample (s).
+        sample_rate: the sampling frequency (Hz).
+    """
     import h5py
 
-    path = os.path.join(DATA_DIR, f"{event}_{detector}.hdf5")
     with h5py.File(path, "r") as f:
         strain = f["strain/Strain"][:]
         t0 = float(f["meta/GPSstart"][()])
